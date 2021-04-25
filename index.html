@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+    <div class="container">
+        <img src="fundal.jpg" alt="fundal" style="width:100%;">
+        <div class="centered"></div>
+      </div>
+      
+<div class="navbar">
+    <a href="#contact" class="effect-underline">Catedrala Notre Dame din Paris</a>
+  </div>
+  
+  
+  <div class="slideshow-container">
+  
+  <div class="mySlides fade">
+
+    <img src="interior.jpeg" style="width:100%">
+ 
+  </div>
+  
+  <div class="mySlides fade">
+
+    <img src="interior2.jpeg" style="width:100%">
+
+  </div>
+  
+  <div class="mySlides fade">
+
+    <img src="interior3.jpeg" style="width:100%">
+
+  </div>
+  
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  
+  <script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+  <p>Catedrala Notre-Dame din Paris (în română Catedrala „Doamna Noastră”, cu referire la Fecioara Maria) este un monument al <br>arhitecturii gotice timpurii din Franța, sediu al Arhiepiscopiei Parisului. Catedrala se află pe Île de la Cité, în centrul Parisului.</p>
+  <h1>Istoric</h1>
+  <p>Construcția a început în anul 1163, pe locul unui lăcaș de cult dedicat sfântului diacon Ștefan. În 1182, episcopul Maurice de Sully <br>a sfințit altarul, dar construcția catedralei a durat din 1163 până în 1345. Construcția clădirii cu cinci nave s-a terminat prin <br>lucrările de pe fațada vestică, iar pe la mijlocul secolului al XIV-lea, prima capodoperă a stilului gotic timpuriu era gata. <br>Cu toate că desenele inițiale și strana evocau încă stilul romanic, aici s-au aplicat pentru prima oară soluții arhitecturale specifice <br>stilului gotic.</p>
+  <p>Fațada dantelată și cele două turnuri patrulatere, de câte 69 m fiecare, radiază mult echilibru. Intrarea în catedrală se face prin <br>trei porți bogat ornamentate, care evocă simbolurile stilului gotic târziu. Impresia spațială în interiorul bisericii este copleșitoare,<br> zidurile ei se înalță pe trei rânduri de coloane. De proporții impozante, 130 m lungime, 45 m lățime, 35 m înălțime, unde <br>încap până la 10.000 de persoane. Nava principală este împodobită cu statui și picturi.</p>
+  <img src="fatada.jpg" id="fatada">
+  <p>În timpul <a href="https://ro.wikipedia.org/wiki/Clubul_Iacobinilor"> iacobinilor</a> (1793-1794), catedrala a fost profanată devenind Templu al Rațiunii<br> și loc unde erau citite și dezbătute operele <a href="https://ro.wikipedia.org/wiki/Iluminism">iluminiștilor</a> în timp ce era venerată<br> Ființa Supremă. Catedrala a redevenit catolică în urma concordatului lui Napoleon I <br>cu Papa Pius al VII-lea din 1801, Napoleon fiind încoronat aici împărat al Franței pe data de<br> 2 decembrie 1804.</p>
+
+  <p>Catedrala Notre-Dame din Paris este vizitată de circa 13 milioane de persoane anual, ceea ce<br> înseamnă o medie zilnică de 30.000 de oameni. În zilele cu afluența ridicată, pricinuită de sărbători sau<br> evenimente importante, se poate ajunge chiar și la 50.000 de oameni. Vorbind despre vitralii,<br> trebuie să amintim de cele trei roze ale catedralei, care reprezintă una din marile opere<br> de artă ale creștinătății. Roza de sud, numită și La Rose du Midi, este un dar din partea<br> regelui <a href="https://ro.wikipedia.org/wiki/Ludovic_al_IX-lea_al_Fran%C8%9Bei">Ludovic al IX-lea al Franței</a> și este consacrată <a href="https://ro.wikipedia.org/wiki/Noul_Testament">Noului Testament.</a></p>
+  <h1>Incendiul din 15 aprilie 2019</h1>
+  <p>Pe 15 aprilie 2019, ora 19:50 (ora Europei de Est), un incendiu a izbucnit pe acoperișul catedralei.<br> Se presupune că incendiul ar fi fost cauzat de lucrările de renovare realizate pe clădire, după o <br>cerere de reparare de urgență din 2018. Clădirile din zonă au fost evacuate. Turnul-fleșă al<br> catedralei s-a prăbușit. Flăcările au înghițit partea superioară a catedralei, inclusiv vârful,<br> care s-a prăbușit.</p>
+  <table border="3px">
+    <tbody>
+    <tr>
+    <td class="titlu">Informatii generale</td>
+    
+    </tr>
+    <tr>
+    <td>Confesiune</td>
+    <td>romano-catolica</td>
+    </tr>
+    <tr>
+    <td >Hram</td>
+    <td>Sfanta Maria</td>
+    </tr>
+    <tr>
+    <td>Jurisdictie religioasa</td>
+    <td>	Arhidieceza de Paris</td>
+    </tr>
+    <tr>
+    <td class="titlu">Localizare</td>
+    </tr>
+    <tr>
+    <td>Tara</td>
+    <td>Franta</td>
+    </tr>
+    <tr>
+    <td>Localitate</td>
+    <td>Paris</td>
+    </tr>
+    <tr>
+    <td>Arondismente municipale în Franta</td>
+    <td>Arondismentul 4 din Paris</td>
+    </tr>
+    <tr>
+    <td class="titlu">Date despre construcție</td>
+    </tr>
+    <tr>
+    <td>Stil arhitectonic</td>
+    <td>gotic</td>
+    </tr>
+    <tr>
+    <td>Arhitect</td>
+    </tr>
+    <tr>
+    <td>	Jehan de Chelles</td>
+    </tr>
+      <tr>
+    <td>Pierre de Montreuil</td>
+    </tr>
+      <tr>
+    <td>Pierre de Chelles</td>
+    
+    </tr>
+       <tr>
+    <td>Jean Ravy</td>
+    
+    </tr>
+       <tr>
+    <td>Raymond du Temple</td>
+    
+    </tr>
+        <tr>
+    <td>Înălțime maximă</td>
+    <td>69 metri</td>
+    </tr>
+       <tr>
+    <td class="titlu">Istoric</td>
+    </tr>
+       <tr>
+    <td>Data inceperii</td>
+    <td>1160</td>
+    </tr>
+       <tr>
+    <td>Sfintire</td>
+    <td>1182</td>
+    </tr>
+       <tr>
+    <td>Perioada de constructie</td>
+    <td>1163-1345</td>
+    </tr>
+       <tr>
+    </tbody>
+    </table>
+   
+</body>
+</html>
